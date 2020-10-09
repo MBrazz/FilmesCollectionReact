@@ -1,0 +1,46 @@
+nav{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    background: #9BD2DE;
+    
+}
+
+nav ul > li > a {
+    padding: 2em;
+    display: flex;
+    text-decoration: none;
+    color: #361a0c;
+    align-items: center;
+    font-size: 17px;
+}
+
+nav ul > li > a:hover {
+    color: #8C417C;
+}
+
+nav ul > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    height: 11em;
+}
+
+ul > div > h3 {
+    padding-top: 5px;
+}
+
+#area-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20em;
+}
